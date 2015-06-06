@@ -1,0 +1,162 @@
+/* MAIN BODY */
+body {background-image: url(none); background-color: #1A2F38; font-family: tahoma, arial, times new roman, san-serif; font-size: 10px; color: #ffffff; margin: 0; padding: 0;}
+
+/* SCROLLBAR ELEMENTS FOR IE */
+html { scrollbar-face-color: #2F5464; scrollbar-shadow-color: #869688; scrollbar-highlight-color: #1A2F38; scrollbar-3dlight-color: #ffffff; scrollbar-darkshadow-color: #1A2F38; scrollbar-track-color: #1A2F38; scrollbar-arrow-color: #C0FFC0;}
+
+/* TABLE ELEMENTS */
+table {width: 100%; margin: 5; padding: 5; font-size: 11px; background-color: #274755; cursor: crosshair;}
+table td {padding: 0; border-width: 0; vertical-align: top; font-family: Verdana, Arial, Helvetica, sans-serif;}
+
+/* LINK ELEMENTS */
+a {font-family: arial, times new roman, san-serif; font-size: 11px; color: #21D8FF; text-decoration: none; font-weight: normal; background-color: transparent;}
+a:hover {font-family: arial, times new roman, san-serif; font-size: 11px; font-weight: normal; color: #DDFFE1;}
+
+/* HEADINGS */
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+ul { margin: 2px; padding: 2px; list-style: decimal inside; text-align: left;}
+li { margin-left: 2px; list-style: square inside; color: #E5F9FF;}
+
+/* BUTTON SETTINGS */
+input.formButton {}
+
+/* ITEM ELEMENTS */
+.item {border: 1px inset #869688;}
+.itemHead {padding: 3px; background-color: #2F5464; color: #E5F9FF; border: 2px outset #869688;}
+.itemInfo {text-align: right; padding: 3px; background-color: #2B4D5B;}
+.itemTitle a {font-size: 105%; font-weight: bold; font-variant: small-caps; color: #E5F9FF; background-color: transparent;}
+.itemTitle a:hover {font-size: 105%; font-weight: bold; font-variant: small-caps; color: #7BDC65; background-color: transparent;}
+.itemPoster {font-size: 90%; font-style:italic;}
+.itemPostDate {font-size: 90%; font-style:italic;}
+.itemStats {font-size: 90%; font-style:italic;}
+.itemBody {padding-left: 5px;}
+.itemText {margin-top: 5px; margin-bottom: 5px; line-height: 1.5em;}
+.itemText:first-letter {font-size: 133%; font-weight: bold;}
+.itemFoot {text-align: right; padding: 3px; background-color: #2B4D5B;}
+.itemAdminLink {font-size: 90%;}
+.itemPermaLink {font-size: 90%;}
+
+/* TABLE HEADING ELEMENTS */
+th {background-color: #2F5464; color: #DDFFE1; padding : 2px; vertical-align : middle; font-family: Verdana, Arial, Helvetica, sans-serif;  border: 2px outset #869688;}
+
+/* HEADER ELEMENTS */      
+td#headerbanner {background-image: url(headerbg.jpg); background-repeat: repeat-x; width: 100%; height: 90px; background-color: #1A2F38; vertical-align: middle; text-align:center;}
+td#headerbar {border-bottom: 1px solid #0C1175; background-image: url(hbar.gif); color: #000000; height: 20px; text-align: center; font-weight: bold; font-family: tahoma, arial, times new roman, sans-serif; font-size: 10px; vertical-align: middle;}
+
+/* LEFT COLUMN */
+td#leftcolumn {width: 170px; border-right: 1px outset #1A2F38; font-size:11px; background-color: #1A2F38; text-align: center;}
+td#leftcolumn th {background-color: #2F5464; color: #DDFFE1; vertical-align: middle;}
+td#leftcolumn div.blockTitle {padding: 3px; background-image: url(titlebg.gif); background-repeat: repeat; background-color: #2F5464; color: #DDFFE1; font-weight: bold; text-align: center; border: 1px outset #1A2F38;}
+td#leftcolumn div.blockContent {padding: 8px; line-height: 120%; line-height: 120%;}
+
+/* CENTER COLUMN */
+#centercolumn {font-size: 11px;}
+#centercolumn th {background-color: #2F5464; color: #DDFFE1; vertical-align: middle;}
+
+#centerCcolumn, #bottomCcolumn {padding: 0px 3px 1px 3px;}
+#centerCcolumn .blockTitle, #bottomCcolumn .blockTitle {font-family: tahoma, arial, times new roman, san-serif; font-size: 10px; padding: 3px; color: #C0FFC0; font-weight: bold; margin-top: 0px; margin-right: 0px; margin-left: 0px; text-align: left;}
+#centerCcolumn .blockContent, #bottomCcolumn .blockContent {padding: 3px; margin-right: 0px;  margin-left: 0px; margin-bottom: 2px; line-height: 120%; border: 1px inset #2f5464;}
+
+#centerLcolumn, #bottomLcolumn, #centerRcolumn, #bottomRcolumn {
+	width: 50%; padding: 0px 3px 0px 0px;
+}
+#centerLcolumn .blockTitle, #bottomLcolumn .blockTitle, #centerRcolumn .blockTitle, #bottomRcolumn .blockTitle {
+	font-family: tahoma, arial, times new roman, san-serif; font-size: 10px; padding: 3px; color: #C0FFC0; font-weight: bold; margin-top: 0px; text-align: left;
+}
+#centerLcolumn .blockContent, #centerRcolumn .blockContent, #bottomLcolumn .blockContent, #bottomRcolumn .blockContent {
+	 border: 1px inset #2f5464; padding: 3px; margin-left: 2px; margin-right: 3px; margin-bottom: 2px; line-height: 120%;
+}
+
+/* DIV ELEMENTS */
+div#content {text-align: left; padding: 8px;}
+
+/* RIGHT COLUMN */
+td#rightcolumn {width: 170px; border-left: 1px outset #1A2F38; font-size:11px; background-color: #1A2F38;}
+td#rightcolumn th {background-color: #2F5464; color: #DDFFE1; vertical-align: middle;}
+td#rightcolumn div.blockTitle {padding: 3px; background-image: url(titlebg.gif); background-repeat: repeat; background-color: #2F5464; color: #DDFFE1; font-weight: bold; text-align: center; border: 1px outset #1A2F38;}
+td#rightcolumn div.blockContent {padding: 8px; line-height: 120%;}
+
+/* FOOTER BAR ELEMENTS */
+tr#footerbar {font-family: tahoma, arial, times new roman, san-serif; font-size: 9px; text-align:center; background-image: url(fbar.jpg); background-repeat: repeat-x; height: 33px; padding-top: 8px; color: #ffffff; font-weight: normal;}
+
+/* MAIN MENU */
+td#mainmenu a {background-color: #274755; color: #D5DAEE; font-family: tahoma, arial, times new roman, san-serif; font-weight: normal; display: block; margin: 0; padding: 4px; border-style: outset; border-top-width: 1px; border-bottom-width: 1px; border-left-width:1px; border-right-width: 1px; border-left-color: #2C3E32; border-top-color: #274755; border-right-color: #274755; border-bottom-color: #2C3E32;}
+td#mainmenu a:hover {background-color: #1A2F38; color: #C0FFC0; border-style: inset; border-top-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-width: 1px; border-left-color: #2f5464; border-top-color: #2f5464; border-right-color: #2f5464; border-bottom-color: #2f5464;}
+td#mainmenu a.menuTop {border-top: 1px solid #274755;}
+td#mainmenu a.menuMain {border-top: 1px solid #274755;}
+td#mainmenu a.menuSub {padding-left: 9px; border-top: 1px solid #274755;  font-family: tahoma, arial, times new roman, san-serif; font-style: normal; font-weight: bold; font-size: 10px;}
+
+/* USER MENU */
+td#usermenu a {background-color: #274755; color: #D5DAEE; font-family: tahoma, arial, times new roman, san-serif; font-weight: normal; display: block; margin: 0; padding: 4px; border-style: outset; border-top-width: 1px; border-bottom-width: 1px; border-left-width:1px; border-right-width: 1px; border-left-color: #274755; border-top-color: #274755; border-right-color: #274755; border-bottom-color: #274755;}
+td#usermenu a:hover {background-color: #1A2F38; color: #C0FFC0; border-style: inset; border-top-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-width: 1px; border-left-color: #2f5464; border-top-color: #2f5464; border-right-color: #2f5464; border-bottom-color: #2f5464;}
+td#usermenu a.menuTop {border-top: 1px solid #274755;}
+td#usermenu a.highlight {background-color: #CCCCCC;}
+
+/* HEADER MENU */
+td#headermenu {background-image: url(tbar.gif); background-repeat: repeat-x; background-color: #1A2F38; border: 1px outset #1A2F38; height: 30px; text-align: center; vertical-align: middle; color: #7AD7FE; width: 100%;}
+td#headermenu a {background-image: url(none); background-color: #274755; font-family: tahoma, arial, times new roman, san-serif; font-size: 11px; font-weight: normal; color: #D5DAEE; padding: 2px 15px 2px 15px; border: 1px outset #2f5464; display: inline;}
+td#headermenu a:hover {background-image: url(none); background-color: #1A2F38; color: #C0FFC0; border: 1px inset #2f5464; display: inline;}
+
+/* ROWS */
+.outer {border: 1px outset #869688;}
+.head {background-color: #2F5464; padding: 5px; font-weight: bold; color: #efefef;}
+.even {background-color: #2F5464; padding: 5px;}
+.odd {background-color: #2B4D5B; padding: 5px;}
+.foot {background-color: #2F5464; padding: 5px; font-weight: bold; color: #efefef;}
+tr.even td {background-color: #2F5464; padding: 5px;}
+tr.odd td {background-color: #2B4D5B; padding: 5px;}
+
+/* REDIRECT MESSAGES */
+div.errorMsg { background-color: #CFD0FF; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.confirmMsg { background-color: #DDDEFF; color: #136C99; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.resultMsg { background-color : #A0A1C8; color: #393949; text-align: center; border-top: 1px solid #5F6079; border-left: 1px solid #5F6079; font-weight: bold; border-right: 1px solid #5F6079; border-bottom: 1px solid #5F6079; padding: 10px;}
+
+/* CODE AND QUOTE ELEMENTS */
+div.xoopsCode {background-color: #2F5464; border: 1px inset #CCCCCC; color: #C0FFC0; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px; width: 400px; height: 150px; max-height: 150px; margin: 0.5em; overflow: auto;}
+div.xoopsQuote {background-color: #2F5464; border: 1px inset #CCCCCC; color: #C0FFC0; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px; width: 400px; height: 150px; max-height: 150px; margin: 0.5em; overflow: auto;}
+
+/* USER DETAILS */
+.comTitle {font-weight: bold; margin-bottom: 2px;}
+.comText {padding: 2px;}
+.comUserStat {font-size: 10px; color: #DDFFE1; font-weight:bold; border: 1px solid silver; background-color: #2F5464; margin: 2px; padding: 2px;}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {margin-left: 2px; margin-top: 10px; color: #DDFFE1; font-weight:bold; font-size: 10px;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-size: 10px;font-weight:bold;}
+.comUserRankImg {border: 0;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal; font-style: italic; font-size: smaller}
+.comDateCaption {font-weight: bold; font-style: normal;}
+
+/* HEADER WELCOME, CLOCK AND SEARCH BAR ELEMENTS */
+.clockbar {width: 100%; background-color: #1A2F38; background-image: url(tbar.gif); background-repeat: repeat-x; height: 32px;}
+td#welcome {width: 190px; font-family: tahoma, arial, verdana, times new roman, san-serif; font-size: 10px; color: #C0FFC0; font-weight: bold; vertical-align: middle; text-indent: 5px; padding-top: 3px;}
+td#welcome a {font-family: arial, times new roman, san-serif; font-size: 11px; color: #21D8FF; text-decoration: underline; font-weight: normal; background-color: transparent;}
+td#welcome a:hover {font-family: arial, times new roman, san-serif; font-size: 11px; font-weight: normal; color: #FFAE01;}
+td#clocktext {font-family: verdana, arial, times new roman, san-serif; font-size: 10px; color: #C0FFC0; font-weight: bold; text-align: center; vertical-align: middle; padding-top: 3px;}
+td#search {width: 190px; color: #C0FFC0; font-weight: bold; font-family: tahoma, arial, times new roman, sans-serif; font-size: 10px; vertical-align: middle; text-align: right; padding-right: 5px; padding-top: 3px;}
+
+/* HEADER SEARCH INPUT AND BUTTON */
+.searchinput {color: #C0FFC0; border: 1px inset #CCCCCC; background-color: #2F5464;  font-size: 10px; font-weight: normal; vertical-align: middle;}
+.searchbutton {border: 1px outset #FFFFFF; margin: 0; padding: 0; font-size: 10px; width: 25px; height: 17px; vertical-align: middle; background-color: #2F5464; color: #C0FFC0;}
+
+
+
+/* ELEMENTS BELOW HERE ARE FOR WHEN OPTIONAL CUSTOM SYSTEM TEMPLATES ARE INSTALLED */
+
+/* For Custom system_block_login and Login area on system_siteclosed Templates */
+.logininput {color: #C0FFC0; border: 1px inset #CCCCCC; background-color: #2F5464;}
+.loginbutton {border: 1px outset #CCCCCC; margin: 0; padding: 0; font-size: 10px; width: 65px; height: 20px; background-color: #2F5464; color: #C0FFC0;}
+
+/* For Custom system_block_search Template */
+.syssearchinput {color: #C0FFC0; border: 1px inset #CCCCCC; background-color: #2F5464; width: 100px; font-size: 10px; font-weight: normal;}
+.syssearchbutton {border: 1px outset #CCCCCC; margin: 0; padding: 0; font-size: 10px; width: 65px; height: 20px; background-color: #2F5464; color: #C0FFC0;}
+
+/* For Custom system_userform Template */
+.sysuserforminput {color: #C0FFC0; border: 1px inset #CCCCCC; background-color: #2F5464; width: 100px; font-size: 10px; font-weight: normal;}
+.sysuserformbutton {border: 1px outset #CCCCCC; margin: 0; padding: 0; font-size: 10px; width: 180px; height: 20px; background-color: #2F5464; color: #C0FFC0;}
